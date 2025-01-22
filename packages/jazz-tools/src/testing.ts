@@ -110,3 +110,5 @@ export function linkAccounts(
   a._raw.core.node.syncManager.addPeer(aPeer);
   b._raw.core.node.syncManager.addPeer(bPeer);
 }
+
+export { CoRichTextDebug } from "./coValues/coRichText.js";
